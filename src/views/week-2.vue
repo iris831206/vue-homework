@@ -39,8 +39,8 @@
   <hr>
   <p v-if="user.uid">使用者{{ user.nickname }} 已登入</p>
   <p v-else>尚未登入</p>
-  <h2>Todo list</h2>
-  <div v-if="APItoken">
+  <div v-if="user.uid">
+    <h2>Todo list</h2>
     <input v-model="newTodo" placeholder="New Todo" />
     <button @click="addTodo">Add Todo</button>
     <ul>
