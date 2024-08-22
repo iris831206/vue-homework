@@ -3,7 +3,8 @@
     <RouterLink to="/">Home</RouterLink> |
     <RouterLink to="/about">About</RouterLink> |
     <RouterLink to="/week-1">week-1</RouterLink> |
-    <RouterLink to="/week-2">week-2</RouterLink>
+    <RouterLink to="/week-2">week-2</RouterLink>|
+    <RouterLink to="/week-3">week-3</RouterLink>
     <hr>
     <HelloWorld />
   </div>

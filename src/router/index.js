@@ -22,6 +22,10 @@ const routes = [
   {
     path: '/week-2',
     component: () => import('../views/week-2.vue')
+  },
+  {
+    path: '/week-3',
+    component: () => import('../views/week-3.vue')
   }
 ]
 
